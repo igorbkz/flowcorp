@@ -3,8 +3,9 @@
     <div class="container">
         <!-- Cabeçalho do blog -->
         <div class="blog-header">
-            <h2 class="section-title">Meu Blog</h2>
-            <p class="section-description">Últimas postagens e novidades</p>
+            <h2 class="section-title">Flow Blog</h2>
+            <p class="section-description">em construção</p>
+            <link rel="icon" type="image/x-icon" href="../assets/images/favicon_novo.jpg">
         </div>
 
         <!-- Grade de posts do blog -->
@@ -15,10 +16,6 @@
                     <img src="../assets/images/universo.jpg" alt="Nós somos o universo">
                 </div>
                 <div class="post-content">
-                    <div class="post-meta">
-                        <span class="post-date">15 Novembro, 2024</span>
-                        <span class="post-category">Filosofia</span>
-                    </div>
                     <h3 class="post-title">Nós somos o universo</h3>
                     <p class="post-excerpt">
                         Conectados a ele em cada átomo, pensamento e emoção. Ao explorarmos nosso ser, exploramos também a vastidão que nos rodeia.
@@ -30,30 +27,24 @@
             <!-- Exemplo de outro post - Você pode duplicar este bloco -->
             <article class="blog-post">
                 <div class="post-image">
-                    <img src="../assets/images/piramide.jpg" alt="Título do Segundo Post">
+                    <img src="../assets/images/piramide.jpg" alt="Em busca do desconhecido">
                 </div>
                 <div class="post-content">
-                    <div class="post-meta">
-                        <span class="post-date">10 Março, 2024</span>
-                        <span class="post-category">Outra Categoria</span>
-                    </div>
-                    <h3 class="post-title">Título do Segundo Post</h3>
+                    <h3 class="post-title">Em busca do desconhecido</h3>
                     <p class="post-excerpt">
-                        Descrição do segundo post. Personalize este texto conforme necessário.
+                        A busca pelo desconhecido é uma jornada que nos leva a explorar nossos próprios limites e a descobrir novas realidades.
                     </p>
-                    <a href="#" class="read-more">Ler mais</a>
+                    <a href="../posts/post-2.html" class="read-more">Ler mais</a>
                 </div>
             </article>
         </div>
-
-        <!-- Botão para carregar mais posts (opcional) -->
-        <div class="blog-load-more">
-            <button class="load-more-btn">Carregar mais posts</button>
-        </div>
+        <a href="../index.html" class="voltar-btn">Voltar ao site</a>
     </div>
 </section>
 
 <style>
+
+
     /* Estilos para a seção do blog */
     .blog-section {
         padding: 80px 0;
@@ -176,5 +167,22 @@
         .section-title {
             font-size: 2em;
         }
+    }
+
+    /* Estilo do botão voltar */
+    .voltar-btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .voltar-btn:hover {
+        background-color: #0056b3;
+        transform: translateY(-2px);
     }
 </style>
